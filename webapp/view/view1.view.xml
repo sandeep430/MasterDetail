@@ -1,0 +1,62 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="mw.controller.view1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<!--<App>-->
+	<!--	<pages>-->
+	<Page title="{/MasterSet/Person}">
+		<headerContent>
+			<Button icon="sap-icon://action" press="onFront" tooltip="Share"/>
+			<!--<Button icon="sap-icon://delete" press="onFront" tooltip="Share" />-->
+			<label text="go"></label>
+		</headerContent>
+ 
+			<subHeader>
+			<OverflowToolbar>
+				<SearchField search="onSearch" liveChange="onSearch"  value="{/MasterSet/Person}" width="60%" />
+			</OverflowToolbar>
+		</subHeader>
+		<content> 
+			<!--<List id="idList" items="{/ctrTb}">-->
+			<!--	<ObjectListItem intro="{Name}" title="{Populaion}" icon="{flag}" number="{Populaion}" numberUnit="{unit}"></ObjectListItem>-->
+			<!--</List>-->
+			
+			
+				<List id="idList"  mode="SingleSelect"  select="onItemPress" 
+				growing="true" growingThreshold ="3">
+					<!-- -->
+					<!--selectionChange="onItemPress"-->
+					<!--mode="SingleSelectMaster" -->
+				<!--<ObjectListItem></ObjectListItem>-->
+			</List>
+			
+			<!--<StandardListItem  title="2.Std List Item" 	description="detail" icon="sap-icon://action-settings" iconDensityAware="false" iconInset="false" />-->
+			<!--<ObjectListItem-->
+			<!--	id="ObjectListItem" -->
+			<!--	title="sNotes"-->
+			<!--	number="123"-->
+			<!--	icon="sap-icon://home">-->
+			<!-- <firstStatus>-->
+			<!--	<ObjectStatus text="outofstock" state="Error"> </ObjectStatus>-->
+			<!--	</firstStatus>-->
+			<!--             </ObjectListItem>-->
+			<!--             <InputListItem>-->
+			<!--             	<content>-->
+			<!--             		<Button text="123"></Button>-->
+			<!--             		<Button text="456"></Button>-->
+			<!--             		<input width="100px"></input>-->
+			<!--             	</content>-->
+			<!--             </InputListItem>-->
+			<!--<List id= "ctList" items="{/ctrTb}">-->
+			<!-- 	<DisplayListItem  label="{Name}"	value="{Populaion}"  /> -->
+			<!--   	</List>-->
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button icon="sap-icon://add" press="onAdd"></Button>
+			</Toolbar>
+			
+		</footer>
+	</Page>
+	<!--	</pages>-->
+	<!--</App>-->
+</mvc:View>

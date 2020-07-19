@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<script src="http://sapui5.hana.ondemand.com/resources/sap-ui-core.js"-->
+		<script src="/resources/sap-ui-core.js"
+		
+
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-resourceroots='{ "mw" : "./"}'>
+		</script>
+		
+		<script > 
+			// var oView = new sap.ui.view({
+			// 	id: "idview1",
+			// 	viewName: "mw.view.viewcur",
+			// 	type: sap.ui.core.mvc.ViewType.XML
+			// }); 
+			 
+			// oView.placeAt("content"); 
+			
+			var oCompContainer = new sap.ui.core.ComponentContainer({
+				name: "mw"
+			});
+			
+			oCompContainer.placeAt("content");
+			
+		</script>
+	</head>
+		<body class="sapUiBody">
+		<div id="content"></div>   
+	</body>
+</html>

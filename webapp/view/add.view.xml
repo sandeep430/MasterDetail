@@ -1,0 +1,47 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="mw.controller.Add">
+ 
+ 
+			<Page title="Create Products">
+						<!--<label text="{Populaion}"></label>-->
+		     <headerContent>
+			<Button icon="sap-icon://nav-back" press="onBack" tooltip="Share"/> 
+	
+		    </headerContent>
+
+				<content>
+						<Button text="Back" press="onBack" icon="sap-icon://nav-back"/>
+						<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="__form0">
+						    <sap.ui.layout.form:content>
+						        <Label text="Product Id &amp; Name" id="__label0"/>
+						        <Input width="100%" value="{india>/product/ProductId}" showValueHelp="true" valueHelpRequest="onF4Help" id="__input0"/>
+						        <Input width="100%" value="{india>/product/Name}" id="__input1"/>
+						        <Label text="Price" id="__label1"/>
+						        <Input width="100%" value="{india>/product/Price}" id="__input2"/>
+						        <Label xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" text="Currency" width="100%" id="__label2_copy"/>
+						        <Select xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" selectedItem="Element sap.ui.core.ListItem#__item3" selectedKey="{india>/product/CurrencyCode}" selectedItemId="__item3" id="idCur">
+						            <items>
+						                <core:ListItem xmlns:core="sap.ui.core" text="Indian rupees" key="INR" id="__item3"/>
+						                <core:ListItem xmlns:core="sap.ui.core" text="US dollars" key="USD" id="__item4"/>
+						                <core:ListItem xmlns:core="sap.ui.core" text="Japan yen" key="JPY" id="__item5"/>
+						                </items>
+						        </Select>
+						        <Label text="Label" width="100%" id="__label2"/></sap.ui.layout.form:content>
+						</sap.ui.layout.form:SimpleForm>  
+				
+				
+				</content>
+				
+				
+						<footer>
+			<Toolbar>  
+			<ToolbarSpacer></ToolbarSpacer>
+				<Button text="save" type="Accept" press="goSuccess"/>
+				<Button text="DontSave" type="Reject" press="goError"/>
+			</Toolbar>
+			
+		</footer>
+				
+
+				
+			</Page> 
+</mvc:View>

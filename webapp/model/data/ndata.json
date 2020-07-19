@@ -1,0 +1,40 @@
+{
+	
+	"Fruits": [{
+		"name": "Banana",
+		"uom": "DZ",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2F42E9as7NaTaAi4A6JcuFwG-320-80.jpg&imgrefurl=https%3A%2F%2Fwww.livescience.com%2F45005-banana-nutrition-facts.html&tbnid=67kiJc80LiopgM&vet=12ahUKEwjg3bKQ4ZrqAhXMYqwKHb3GBGEQMygAegUIARDUAQ..i&docid=aCmLYEGvNNOXNM&w=320&h=213&q=banana&ved=2ahUKEwjg3bKQ4ZrqAhXMYqwKHb3GBGEQMygAegUIARDUAQ",
+		"type": "sweet"
+	}, {
+		"name": "Orange",
+		"uom": "KG",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.marlerblog.com%2Ffiles%2F2013%2F03%2Forange.jpg&imgrefurl=https%3A%2F%2Fwww.marlerblog.com%2Fcase-news%2Fdidnt-i-tell-you-to-pasteurize-that-orange-juice%2F&tbnid=X1K_oDbqhCRTPM&vet=12ahUKEwjdg5zG4ZrqAhUCgK0KHSG4Bv8QMygIegUIARDmAQ..i&docid=SmEoD7gRCsvRtM&w=300&h=293&q=Orange&ved=2ahUKEwjdg5zG4ZrqAhUCgK0KHSG4Bv8QMygIegUIARDmAQ",
+		"type": "tango"
+	}, {
+		"name": "Mango",
+		"uom": "LB",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nutritionaction.com%2Fwp-content%2Fuploads%2FhoneyMango_600pxtall.jpg&imgrefurl=https%3A%2F%2Fwww.nutritionaction.com%2Fdaily%2Fwhat-to-eat%2Firresistible-mango-thats-hitting-stores-right-now%2F&tbnid=X5PNXLelXml6AM&vet=12ahUKEwj22JrZ4ZrqAhUQc60KHXK6CWsQMygXegUIARDuAg..i&docid=Or87dYiP0qla7M&w=900&h=600&q=mango&ved=2ahUKEwj22JrZ4ZrqAhUQc60KHXK6CWsQMygXegUIARDuAg",
+		"type": "sweet&sour"
+	}
+	] ,
+
+	"CTR": [{
+		"name": "Banana",
+		"uom": "DZ",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2F42E9as7NaTaAi4A6JcuFwG-320-80.jpg&imgrefurl=https%3A%2F%2Fwww.livescience.com%2F45005-banana-nutrition-facts.html&tbnid=67kiJc80LiopgM&vet=12ahUKEwjg3bKQ4ZrqAhXMYqwKHb3GBGEQMygAegUIARDUAQ..i&docid=aCmLYEGvNNOXNM&w=320&h=213&q=banana&ved=2ahUKEwjg3bKQ4ZrqAhXMYqwKHb3GBGEQMygAegUIARDUAQ",
+		"type": "sweet"
+	}, {
+		"name": "Orange",
+		"uom": "KG",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.marlerblog.com%2Ffiles%2F2013%2F03%2Forange.jpg&imgrefurl=https%3A%2F%2Fwww.marlerblog.com%2Fcase-news%2Fdidnt-i-tell-you-to-pasteurize-that-orange-juice%2F&tbnid=X1K_oDbqhCRTPM&vet=12ahUKEwjdg5zG4ZrqAhUCgK0KHSG4Bv8QMygIegUIARDmAQ..i&docid=SmEoD7gRCsvRtM&w=300&h=293&q=Orange&ved=2ahUKEwjdg5zG4ZrqAhUCgK0KHSG4Bv8QMygIegUIARDmAQ",
+		"type": "tango"
+	}, {
+		"name": "Mango",
+		"uom": "LB",
+		"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nutritionaction.com%2Fwp-content%2Fuploads%2FhoneyMango_600pxtall.jpg&imgrefurl=https%3A%2F%2Fwww.nutritionaction.com%2Fdaily%2Fwhat-to-eat%2Firresistible-mango-thats-hitting-stores-right-now%2F&tbnid=X5PNXLelXml6AM&vet=12ahUKEwj22JrZ4ZrqAhUQc60KHXK6CWsQMygXegUIARDuAg..i&docid=Or87dYiP0qla7M&w=900&h=600&q=mango&ved=2ahUKEwj22JrZ4ZrqAhUQc60KHXK6CWsQMygXegUIARDuAg",
+		"type": "sweet&sour"
+	}
+	] 
+	
+	 
+}

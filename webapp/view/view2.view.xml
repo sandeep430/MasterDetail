@@ -1,0 +1,95 @@
+<mvc:View xmlns:core="sap.ui.core"
+		xmlns:mvc="sap.ui.core.mvc" 
+		xmlns="sap.m" 
+		xmlns:html="http://www.w3.org/1999/xhtml" 
+		controllerName="mw.controller.view2">
+ 
+ 
+			<Page title="{Person}">
+						<!--<label text="{Populaion}"></label>-->
+		     <headerContent>
+			<Button icon="sap-icon://nav-back" press="onBack" tooltip="Share"/> 
+	
+		    </headerContent>
+
+				<content>
+						
+				
+				<IconTabBar>
+					<items> 
+						<IconTabFilter icon="sap-icon://address-book" text="My Information"> 
+						    <content> 
+						        <Panel id="__panel0" headerText="MyPanel" expandable="true"> 
+						            <content> 
+						                <sap.ui.layout.form:SimpleForm xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="__form0"> 
+						                    <sap.ui.layout.form:content> 
+						                        <Label text="Country" id="__label0"/> 
+						                        <core:Title xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:core="sap.ui.core" text="Sandeep Details" id="__title0_copy"/> 
+						                        <Label text="Country" width="100%" id="__label2"/> 
+						                        <Input width="100%" id="__input0" value="{Person}"/> 
+						                        <Label text="Population" id="__label1"/> 
+						                        <Input width="100%" id="__input2" value="{Age}"/> 
+						                        <Label xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns="sap.m" text="Population" id="__label1_copy"/> 
+						                        </sap.ui.layout.form:content> 
+						                     
+						                </sap.ui.layout.form:SimpleForm> 
+						            </content> 
+ 
+						        </Panel> 
+						    </content> 
+						    
+						    
+
+						</IconTabFilter> 
+						<IconTabFilter icon="sap-icon://badge" text="Education"> 
+						    <content> 
+						 
+						        <Table noDataText="No Data" id="idTable" items="{ToDetail}"> 
+						            <columns> 
+						                <Column id="__column0"> 
+						                    <header> 
+						                        <Label text="Name" id="__label3"/> 
+						                    </header> 
+						                </Column> 
+						                <Column id="__column1"> 
+						                    <header> 
+						                        <Label text="Marks" id="__label4"/> 
+						                    </header> 
+						                </Column> 
+						                <Column id="__column2" minScreenWidth="Tablet"> 
+						                    <header> 
+						                        <Label text="LastName" id="__label5"/> 
+						                    </header> 
+						                </Column>
+						                </columns>
+						               <items>
+						               	<ColumnListItem>
+						               		<cells>
+						               			<Text text="{Person}"/>
+						               			<!--<Text text="{Populaion}"></Text>-->
+						               			<Input value="{Subject}" showValueHelp="true" valueHelpRequest="onF4"/>
+						               			<Text text="{Marks}"/>
+						               		</cells>
+						               	</ColumnListItem>
+						               </items> 
+						                
+						                </Table> 
+						    </content> 
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+				
+				
+				</content>
+				
+				
+		<footer>
+			<Toolbar>  
+				<Button text="Save" type="Accept" press="goSuccess"/>
+				<Button text="DontSave" type="Reject" press="goError"/>
+			</Toolbar>
+			
+		</footer>
+				
+			</Page> 
+</mvc:View>

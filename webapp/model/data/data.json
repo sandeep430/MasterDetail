@@ -1,0 +1,64 @@
+{
+	"empSt": {
+		"empNo": 12333,
+		"empName": "John G",
+		"age": 23,
+		"edit": false
+	},
+	"empTb": [{
+		"empNo": 123434,
+		"empName": "Johin Gresham",
+		"age": 23,
+		"sex": "male"
+	}, {
+		"empNo": 12335,
+		"empName": "Ayan Rand",
+		"age": 45,
+		"sex": "female"
+	}, {
+		"empNo": 123344,
+		"empName": "Will Shake",
+		"age": 94,
+		"sex": "male"
+	}],
+
+	"ctrTb": [{
+		"Name": "India",
+		"Populaion": "140B",
+		"area": "100000SQKM",
+		"flag":"data:image/png;base64,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",
+		"states": [{
+			"name": "TG",
+			"color": "Pink"
+		}, {
+			"name": "AP",
+			"color": "Greeen"
+		}]
+
+	}, {
+		"Name": "USA",
+		"Populaion": "41B",
+		"area": "10000000SQKM",
+		"flag":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6hCGdfdAQQ_Mp4ZfHelwfTWoUnqbHIynkfA&usqp=CAU",
+		"states": [{
+			"name": "MO",
+			"color": "Red"
+		}, {
+			"name": "IN",
+			"color": "Yellow"
+		}]
+
+	}, {
+		"Name": "Canada",
+		"Populaion": "20B",
+		"area": "100SQKM",
+		"flag":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSj5610s5pZiF1ReGNRqtFUl7u7rcDCLQv2RQ&usqp=CAU",
+		"states": [{
+			"name": "ON",
+			"color": "Red"
+		}, {
+			"name": "TO",
+			"color": "Yellow"
+		}]
+	}]
+}
